@@ -41,7 +41,7 @@ The dataset we've used for this python project is news.csv. This dataset has a s
 
 ### Steps for detecting fake news with Python
 #### 1. Make necessary imports:
-![Image of Step 1](C:\Users\Harshita\Pictures)
+![Step 1](https://user-images.githubusercontent.com/49369387/101982273-b2f49100-3c98-11eb-9107-f74d37f5c23b.png)
 
 ## Contributors of this project:
 
