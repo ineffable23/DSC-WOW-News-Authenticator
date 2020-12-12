@@ -14,6 +14,8 @@ We made this project in python with objective to build a model to accurately cla
 
 This python project of news authenticator deals with fake news and real news. Using sklearn (scikit), we build a TfidfVisualizer on our dataset. Then, we initialize a PassiveAgressive Classifier and fit the model. In the end, the accuracy score and the confusion matrix tell us how well our model fares.
 
+![News Authenticator](https://user-images.githubusercontent.com/49369387/101983207-737d7300-3c9f-11eb-947f-aafd0ddef40a.png)
+
 ## Brief explaination of this project:
 
 ### Fake News
@@ -84,6 +86,8 @@ Now we'll print out a confusion matrix to gain insight into the number of false 
 
 #### So with this model, we have 588 true positives, 587 true negatives, 42 false positives, and 50 false negatives. We took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.74% in magnitude.
 
+![Confusion Matrix](https://user-images.githubusercontent.com/49369387/101983213-7b3d1780-3c9f-11eb-8c34-ab83e31e9f14.png)
+
 ## Contributors of this project:
 
 ### 1. Harshita Verma (ineffable23)
@@ -94,7 +98,3 @@ Now we'll print out a confusion matrix to gain insight into the number of false 
 
 - [LinkedIn ](https://www.linkedin.com/in/vamsi-pyla-0885771a1)
 
-
-We are currently working on this part of the project. We'll update this soon.
-
-Thanks for visiting!!!!
