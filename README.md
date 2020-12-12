@@ -40,8 +40,36 @@ Passive Aggressive algorithms are online learning algorithms. Such an algorithm 
 The dataset we've used for this python project is news.csv. This dataset has a shape of 7796x4. The first column identifies the news, the second and third are the title and text, and the fourth column has labels denoting whether the news is REAL or FAKE.
 
 ### Steps for detecting fake news with Python
-#### 1. Make necessary imports:
+#### Step 1:
+Make necessary imports
+
 ![Step 1](https://user-images.githubusercontent.com/49369387/101982273-b2f49100-3c98-11eb-9107-f74d37f5c23b.png)
+
+#### Step 2:
+Read the data into a DataFrame, and get the shape of the data and the first 4 records.
+
+#### Step 3:
+Get the labels from the DataFrame.
+
+#### Step 4: 
+Split the dataset into training and testing sets.
+
+#### Step 5: 
+Initialize a TfidfVectorizer with stop words from the English language and a maximum document frequency of 0.7 (terms with a higher document frequency will be discarded). Stop words are the most common words in a language that are to be filtered out before processing the natural language data. And a TfidfVectorizer turns a collection of raw documents into a matrix of TF-IDF features.
+
+Now, fit and transform the vectorizer on the train set, and transform the vectorizer on the test set.
+
+#### Step 6: 
+Next, we’ll initialize a PassiveAggressiveClassifier. That is we’ll fit this on tfidf_train and y_train.
+
+Then, we’ll predict on the test set from the TfidfVectorizer and calculate the accuracy with accuracy_score() from sklearn.metrics.
+
+#### Step : 
+We got an accuracy of 92.74% with this model. 
+
+Now we'll print out a confusion matrix to gain insight into the number of false and true negatives and positives.
+
+####So with this model, we have 588 true positives, 587 true negatives, 42 false positives, and 50 false negatives. We took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.74% in magnitude.
 
 ## Contributors of this project:
 
@@ -57,5 +85,3 @@ The dataset we've used for this python project is news.csv. This dataset has a s
 We are currently working on this part of the project. We'll update this soon.
 
 Thanks for visiting!!!!
-
-
