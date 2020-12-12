@@ -48,28 +48,41 @@ Make necessary imports
 #### Step 2:
 Read the data into a DataFrame, and get the shape of the data and the first 4 records.
 
+![Step 2](https://user-images.githubusercontent.com/49369387/101982977-9c046d80-3c9d-11eb-9da5-d65141458d87.png)
+
 #### Step 3:
 Get the labels from the DataFrame.
 
+![Step 3](https://user-images.githubusercontent.com/49369387/101982980-a3c41200-3c9d-11eb-89d7-2784f045274f.png)
+
 #### Step 4: 
 Split the dataset into training and testing sets.
+
+![Step 4](https://user-images.githubusercontent.com/49369387/101982986-ade61080-3c9d-11eb-84ee-006f5a9b5c4e.png)
 
 #### Step 5: 
 Initialize a TfidfVectorizer with stop words from the English language and a maximum document frequency of 0.7 (terms with a higher document frequency will be discarded). Stop words are the most common words in a language that are to be filtered out before processing the natural language data. And a TfidfVectorizer turns a collection of raw documents into a matrix of TF-IDF features.
 
 Now, fit and transform the vectorizer on the train set, and transform the vectorizer on the test set.
 
+![Step 5](https://user-images.githubusercontent.com/49369387/101982990-b3dbf180-3c9d-11eb-9d8f-7fddb49fd1bd.png)
+
 #### Step 6: 
 Next, we’ll initialize a PassiveAggressiveClassifier. That is we’ll fit this on tfidf_train and y_train.
 
 Then, we’ll predict on the test set from the TfidfVectorizer and calculate the accuracy with accuracy_score() from sklearn.metrics.
 
-#### Step : 
+![Step 6](https://user-images.githubusercontent.com/49369387/101982992-ba6a6900-3c9d-11eb-912b-a24b38dc63be.png)
+
+#### Step 7: 
 We got an accuracy of 92.74% with this model. 
 
 Now we'll print out a confusion matrix to gain insight into the number of false and true negatives and positives.
 
-####So with this model, we have 588 true positives, 587 true negatives, 42 false positives, and 50 false negatives. We took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.74% in magnitude.
+![Step 7](https://user-images.githubusercontent.com/49369387/101982996-bf2f1d00-3c9d-11eb-969c-5d4c8ecfdf94.png)
+
+
+#### So with this model, we have 588 true positives, 587 true negatives, 42 false positives, and 50 false negatives. We took a political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. We ended up obtaining an accuracy of 92.74% in magnitude.
 
 ## Contributors of this project:
 
