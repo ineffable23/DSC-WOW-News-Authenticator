@@ -21,8 +21,9 @@ def predict():
     print(cf_matrix)
     import seaborn as sns
 
-    output = sns.heatmap(cf_matrix / np.sum(cf_matrix), annot=True,
-                fmt='.2%', cmap='Blues')
+    output = labels = [‘True Neg’,’False Pos’,’False Neg’,’True Pos’]
+             labels = np.asarray(labels).reshape(2,2)
+             sns.heatmap(cf_matrix, annot=labels, fmt=‘’, cmap='Blues')
 
 
 if __name__ == '__main__':
