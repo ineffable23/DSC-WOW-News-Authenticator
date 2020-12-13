@@ -88,6 +88,16 @@ Now we'll print out a confusion matrix to gain insight into the number of false 
 
 ![Confusion Matrix](https://user-images.githubusercontent.com/49369387/101983213-7b3d1780-3c9f-11eb-8c34-ab83e31e9f14.png)
 
+## Web App
+
+#### News Authenticator webapp
+
+![webapp 1](https://user-images.githubusercontent.com/49369387/102005308-e2110e00-3d3d-11eb-86d8-338a8d8dae0b.png)
+#### News Authenticator webapp output
+On clicking the "Predict" button following output can be seen:
+![webapp output](https://user-images.githubusercontent.com/49369387/102005310-e806ef00-3d3d-11eb-8eea-eb533a52d9db.png)
+
+
 ## Contributors of this project:
 
 ### 1. Harshita Verma (ineffable23)
