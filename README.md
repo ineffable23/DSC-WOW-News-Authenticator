@@ -48,7 +48,7 @@ Make necessary imports
 ![Step 1](https://user-images.githubusercontent.com/49369387/101982273-b2f49100-3c98-11eb-9107-f74d37f5c23b.png)
 
 #### Step 2:
-Read the data into a DataFrame, and get the shape of the data and the first 4 records.
+Read the data into a DataFrame, and get the shape of the data and the first 5 records.
 
 ![Step 2](https://user-images.githubusercontent.com/49369387/101982977-9c046d80-3c9d-11eb-9da5-d65141458d87.png)
 
