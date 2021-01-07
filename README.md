@@ -98,13 +98,10 @@ On clicking the "Predict" button following output can be seen:
 ![webapp output](https://user-images.githubusercontent.com/49369387/102005310-e806ef00-3d3d-11eb-8eea-eb533a52d9db.png)
 
 
-## Contributors of this project:
+## Contributor of this project:
 
-### 1. Harshita Verma (ineffable23)
+### Harshita Verma (ineffable23)
 
 - [LinkedIn ](https://www.linkedin.com/in/harshita-verma-528132178)
 
-### 2. Vamsi Pyla (VAMSIPYLA)
-
-- [LinkedIn ](https://www.linkedin.com/in/vamsi-pyla-0885771a1)
 
